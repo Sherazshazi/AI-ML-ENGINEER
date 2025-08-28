@@ -17,6 +17,10 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			sans: ['Inter', 'system-ui', 'sans-serif'],
+			display: ['Space Grotesk', 'system-ui', 'sans-serif'],
+		},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
@@ -27,6 +31,14 @@ export default {
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
+				},
+				'ai-accent': {
+					DEFAULT: 'hsl(var(--ai-accent))',
+					foreground: 'hsl(var(--ai-accent-foreground))'
+				},
+				'ml-accent': {
+					DEFAULT: 'hsl(var(--ml-accent))',
+					foreground: 'hsl(var(--ml-accent-foreground))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
